@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASCII Art Generator</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css"> 
+</head>
+<body>
+    <h1>Generate ASCII Art</h1>
+    <form action="/" method="post">
+        <label for="inputText">Text:</label>
+        <input type="text" id="inputText" name="inputText">
+        <br><br>
+        <label for="banner">Select Banner:</label>
+        <select id="banner" name="banner">
+            <option value="standard">Standard</option>
+            <option value="thinkertoy">Thinkertoy</option>
+            <option value="shadow">Shadow</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
